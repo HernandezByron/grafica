@@ -1,0 +1,11 @@
+Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import math
+>>> import numpy
+>>> import matplotlib.pyplot as plt 
+>>> plt.plot([1,2,3,4,5])
+[<matplotlib.lines.Line2D object at 0x0000029C6E2EC1D0>]
+>>> plt.ylabel('Crecimiento del material X por dia [cm]')
+
+plt.savefig('temp.png')
+plt.show()
